@@ -1,11 +1,9 @@
 body {
-    font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #F7F7F7; 
+    font-family:sans-serif;
     justify-content: Top;
     display: block; 
     align-items: center;
     height: 100vh;
-    margin: 0; 
     padding: 20px; 
 }
 h1 {
@@ -39,11 +37,19 @@ h3 {
     font-weight: 400; 
     margin-bottom: 20px;
 }
+    p {
+        color: #333; 
+        font-size: 2em;
+}
 h4 {
     color: #333; 
     font-size: 2em;
     font-weight: 400; 
     margin-bottom: 20px;
+}
+p {
+    color: #333; 
+    font-size: 2em;
 }
 h5 {
     color: #333; 
@@ -51,6 +57,7 @@ h5 {
     font-weight: 400; 
     margin-bottom: 20px;
 }
+
 h6 {
     color: #333; 
     font-size: 2em;
