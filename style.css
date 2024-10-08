@@ -24,5 +24,36 @@ img {
     height: auto;
     margin: 20px; 
     border-radius: 10px; 
-    
+
+}
+h2 {
+    color: #333; 
+    font-size: 2.5em;
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333; 
+    font-size: 2.5em;
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+h4 {
+    color: #333; 
+    font-size: 2.5em;
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+h5 {
+    color: #333; 
+    font-size: 2.5em;
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+h6 {
+    color: #333; 
+    font-size: 2.5em;
+    font-weight: 600; 
+    margin-bottom: 20px;
 }
