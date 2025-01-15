@@ -35,7 +35,19 @@ p {
 nav {
     text-align: center;
     margin-bottom: 20px;
+    padding: 30px, 0px;
 
+
+}
+
+
+nav ul {
+    margin: 0;
+    display:block;
+    justify-content:space-around;
+    list-style-type: none;
+    flex-direction:column;
+    
 }
 
 
@@ -49,6 +61,3 @@ button {
 }
 
 
-address {
-    font-style: italic;
-}

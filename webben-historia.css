@@ -14,7 +14,7 @@ header {
 nav {
     
     padding: 5px 0px;
-    background-color: rgb(165, 184, 154);
+    background-color: rgb(147, 174, 132);
 }
 
 body {
@@ -33,7 +33,7 @@ h1, h2, p, ul {
 
 nav ul {
     margin: 0;
-    display: flex;
+    display:flex;
     justify-content: space-around;
     list-style-type: none;
 }
@@ -45,7 +45,7 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 nav ul li a:hover {
-    background-color: #007bff; 
+    background-color: #1b0103; 
     color: #fff;
     transform: translateY(-3px);
 }
