@@ -9,27 +9,28 @@
 </head>
     <body>
         <div class="Dating Site">
-            <h1>Your identity</h1>
+            <h1>Kontaktförmlart</h1>
     
        
            <form>
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname" value="Iris"><br>
+            <label for="fname">Förnamn:</label>
+            <input type="text" id="fname" name="fname" value=""><br>
 
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname" value="Basnet">
+            <label for="lname">Efternamn:</label>
+            <input type="text" id="lname" name="lname" value=""><br>
 
-            <label>Gender<br></label>
+            <label>Kön:</label>
             <input type="radio" id="male" name="gender" value="male" Mandatory>
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="female"> 
             <label for="female">Female</label><br>
 
-           <label for="dob">Date of Birth:</label>
+           <label for="dob">Födelsedag:</label>
            <input type="date" id="dob" name="dob" required><br>
 
-            <lable for="country">Country</lable>
-            <select id="Country"name="Country"Mandatory>
+            <lable for="country">Land:</lable>
+            <select id="Country"name="Country"Obligatorisk*>
+                
                 <option value="australia">Australia</option>
                 <option value="bhutan">Bhutan</option>
                 <option value="china">China</option>
@@ -53,18 +54,33 @@
                 <option value="wales">Wales</option>
                 <option value="yemen">Yemen</option>
                 <option value="zimbabwe">Zimbabwe</option></select><br>
+               
+                <label för="Religion">Religion</label>
+                <select id="Religion"name="religion">
+                <option value="hinduism">Hinduism</option>
+                <option value="buddhism">Buddhism</option>
+                <option value="kristendom">Kristendom</option>
+                <option value="islam">Islam</option>
+                <option value="judendom">Judendom</option></select><br>
+        
+             <fieldset>
+            <label för ="Hobbyer">Hobbyer</label><br>
+            <input type="checkbox"id="reading" name="hobbies" value="">
+            <label for="reading">Läsa</label>
+            <input type="checkbox" id="cycling" name="hobbies" value="">
+           <label for="cycling">Cykla</label>
+           <input type="checkbox" id="Music" name="hobbies" value="">
+           <label for="music">Låt</label><br>
+           <input type="checkbox" id="trekking" name="hobbies" value="">
+           <label for="trekking">Vandringarna</label><br></fieldset>
 
-         <label>Hobbies</label><br>
-         <input type="checkbox"id="reading" name="hobbies" value="reading">
-         <label for="reading">Reading</label>
-         <input type="checkbox" id="cycling" name="hobbies" value="cycling">
-        <label for="cycling">Cycling</label>
-        <input type="checkbox" id="Music" name="hobbies" value="Music">
-        <label for="music">Music</label>
-        <input type="checkbox" id="trekking" name="hobbies" value="Trekking">
-        <label for="trekking">Trekking</label><br>
 
-    <button type="button" onclick="myFunction()">Submit</button>
+        
+       
+    
+
+        
+<button type="button" onclick="myFunction()">Skicka</button>
     </form>
     </div>
     </body>

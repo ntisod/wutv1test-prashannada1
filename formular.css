@@ -1,0 +1,86 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f9f9f9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.Dating\ Site h1 {
+
+    text-align: center;
+    color:#333;
+    margin-bottom:20px;
+    font-size:1.8em;
+
+}
+
+.Dating\ Site label {
+
+display: block;
+margin: 10px 5px;
+color: #555;
+font-weight: bold;
+}
+
+.Dating\ Site input[type="text"] ,
+
+.Dating\ Site input[type="date"],
+
+.Dating\ Site select { 
+
+   width: 100px;
+   padding: 8px;
+   margin-bottom: 15px;
+   border: 1px ;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 0.95em;
+   color: #ccc;
+
+.Dating\ Site input[type="radio"],
+.Dating\ Site input[type="checkbox"] {
+
+    margin-right: 5px;
+}
+
+.radio-group,
+fieldset {
+    margin-bottom: 15px;
+}
+
+.radio-group label,
+fieldset label {
+    font-weight: normal;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Dating\ Site button {
+
+    width:100%;
+    padding:10px;
+    background-color:#28a745;
+    color: #f9f9f9;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
