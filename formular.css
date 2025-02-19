@@ -4,43 +4,55 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
-
+    min-height: 100vh;
+    
 }
+div {
+    width: 300px;
+    border: 15px solid #7e3e5b;
+    padding: 70px;
+    margin: 20px;
+    background-color: #826782
+  }
 
-.Dating\ Site h1 {
+.DatingSite h1{
 
     text-align: center;
     color:#333;
-    margin-bottom:20px;
+    line-height: 1.6;
+    margin-bottom:30px;
     font-size:1.8em;
+    
+    
 
 }
 
-.Dating\ Site label {
+.DatingSite label {
 
 display: block;
-margin: 10px 5px;
+line-height: 1.8;
+margin: 20px 10px;
 color: #555;
 font-weight: bold;
+
 }
 
-.Dating\ Site input[type="text"] ,
+.DatingSite input[type="text"],
+.DatingSite input[type="date"],
+.DatingSite select {
 
-.Dating\ Site input[type="date"],
-
-.Dating\ Site select { 
-
-   width: 100px;
-   padding: 8px;
-   margin-bottom: 15px;
-   border: 1px ;
+   width: 100%;
+   padding: 10px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
    border-radius: 4px;
    box-sizing: border-box;
-   font-size: 0.95em;
+   font-size: 1em;
    color: #ccc; }
 
-.Dating\ Site input[type="radio"],
-.Dating\ Site input[type="checkbox"] {
+   .DatingSite input[type="radio"],
+   .DatingSite input[type="checkbox"] {
 
     margin-right: 5px;
 }
@@ -53,6 +65,8 @@ fieldset {
 .radio-group label,
 fieldset label {
     font-weight: normal;
+    display: flex;
+    align-items: center;
 }
 
 fieldset {
@@ -61,16 +75,24 @@ fieldset {
     border-radius: 5px;
 }
 
-.Dating\ Site button {
+.DatingSite button {
 
     width:100%;
     padding:10px;
     background-color:#28a745;
     color: #f9f9f9;
+    border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1em;
+    transition: background-color 0.3s ease;
 }
+
+
+.DatingSite button:hover {
+    background-color: #218838;
+}
+
 
 
 
