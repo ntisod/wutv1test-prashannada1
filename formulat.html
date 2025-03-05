@@ -1,92 +1,84 @@
-    
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="formular.css">
-
-    <title>Ommig</title>
-</head>
-    <body>
-        <div class="Dating Site">
-            <h1>Kontaktförmlart</h1>
-           
-    
-       
-           <form>
-            <label for="fname">Förnamn:</label>
-            <input type="text" id="fname" name="fname" value=""><br>
-
-            <label for="lname">Efternamn:</label>
-            <input type="text" id="lname" name="lname" value=""><br>
-
-            <label>Kön:</label>
-            <input type="radio" id="male" name="gender" value="male" Mandatory>
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female"> 
-            <label for="female">Female</label><br>
-
-           <label for="dob">Födelsedag:</label>
-           <input type="date" id="dob" name="dob" required><br>
-
-            <lable for="country">Land:</lable>
-            <select id="Country"name="Country"Obligatorisk*>
+<head>     
+    <meta charset="UTF-8">     
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <link rel="stylesheet" type="text/css" href="formular.css">      
+    <title>Om mig</title> 
+</head>     
+<body>         
+    <div class="dating-site">             
+        <h1>Kontaktformulär</h1>                                     
+        <form>             
+            <label for="fname">Förnamn:</label>             
+            <input type="text" id="fname" name="fname"><br>              
+            
+            <label for="lname">Efternamn:</label>             
+            <input type="text" id="lname" name="lname"><br>              
+            
+            <label>Kön:</label>             
+            <input type="radio" id="male" name="gender" value="male" required>             
+            <label for="male">Man</label>             
+            <input type="radio" id="female" name="gender" value="female">              
+            <label for="female">Kvinna</label><br>             
+            
+            <label for="dob">Födelsedatum:</label>            
+            <input type="date" id="dob" name="dob" required><br>              
+            
+            <label for="country">Land:</label>             
+            <select id="country" name="country" required>                                 
+                <option value="australia">Australien</option>                 
+                <option value="bhutan">Bhutan</option>                 
+                <option value="china">Kina</option>                 
+                <option value="denmark">Danmark</option>                 
+                <option value="egypt">Egypten</option>                 
+                <option value="finland">Finland</option>                 
+                <option value="germany">Tyskland</option>                 
+                <option value="hongkong">Hongkong</option>                 
+                <option value="kuwait">Kuwait</option>                 
+                <option value="libya">Libyen</option>                 
+                <option value="mongolia">Mongoliet</option>                 
+                <option value="nepal">Nepal</option>                 
+                <option value="oman">Oman</option>                 
+                <option value="portugal">Portugal</option>                 
+                <option value="qatar">Qatar</option>                 
+                <option value="russia">Ryssland</option>                 
+                <option value="sweden">Sverige</option>                 
+                <option value="taiwan">Taiwan</option>                 
+                <option value="united kingdom">Storbritannien</option>                 
+                <option value="vietnam">Vietnam</option>                 
+                <option value="wales">Wales</option>                 
+                <option value="yemen">Jemen</option>                 
+                <option value="zimbabwe">Zimbabwe</option>
+            </select><br>                                 
+            
+            <label for="religion">Religion:</label>                 
+            <select id="religion" name="religion">                 
+                <option value="hinduism">Hinduism</option>                 
+                <option value="buddhism">Buddhism</option>                 
+                <option value="kristendom">Kristendom</option>                 
+                <option value="islam">Islam</option>                 
+                <option value="judendom">Judendom</option>
+            </select><br>                                                      
+            
+            <fieldset>             
+                <legend>Hobbyer:</legend>             
+                <input type="checkbox" id="reading" name="hobbies" value="reading">             
+                <label for="reading">Läsa</label>             
                 
-                <option value="australia">Australia</option>
-                <option value="bhutan">Bhutan</option>
-                <option value="china">China</option>
-                <option value="denmark">Denmark</option>
-                <option value="egypt">Egypt</option>
-                <option value="finland">Finland</option>
-                <option value="germany">Germany</option>
-                <option value="hongkong">Hongkong</option>
-                <option value="Kuwait">Kuwait</option>
-                <option value="libya">Libya</option>
-                <option value="mangolia">Mangolia</option>
-                <option value="nepal">Nepal</option>
-                <option value="oman">Oman</option>
-                <option value="portugal">Portugal</option>
-                <option value="qatar">Qatar</option>
-                <option value="russia">Russia</option>
-                <option value="sweden">Sweden</option>
-                <option value="taiwan">Taiwan</option>
-                <option value="united kingdom">United Kingdom</option>
-                <option value="vietnam">Vietnam</option>
-                <option value="wales">Wales</option>
-                <option value="yemen">Yemen</option>
-                <option value="zimbabwe">Zimbabwe</option></select><br>
-               
-                <label för="Religion">Religion</label>
-                <select id="Religion"name="religion">
-                <option value="hinduism">Hinduism</option>
-                <option value="buddhism">Buddhism</option>
-                <option value="kristendom">Kristendom</option>
-                <option value="islam">Islam</option>
-                <option value="judendom">Judendom</option></select><br>
-             
+                <input type="checkbox" id="cycling" name="hobbies" value="cycling">            
+                <label for="cycling">Cykla</label>            
                 
-        
-             <fieldset>
-            <label för ="Hobbyer">Hobbyer:</label>
-            <input type="checkbox"id="reading" name="hobbies" value="">
-            <label for="reading">Läsa</label>
-            <input type="checkbox" id="cycling" name="hobbies" value="">
-           <label for="cycling">Cykla</label>
-           <input type="checkbox" id="Music" name="hobbies" value="">
-           <label for="music">Låt</label>
-           <input type="checkbox" id="trekking" name="hobbies" value="">
-           <label for="trekking">Vandringarna</label>
-           <input type="checkbox"id="reading" name="hobbies" value="">
-          <label för="annat">Annat</label></fieldset>
-
-
-
-        
-       
-    
-
-        
-<button type="button" onclick="myFunction()">Skicka</button>
-    </form>
-    </div>
-    </body>
+                <input type="checkbox" id="music" name="hobbies" value="music">            
+                <label for="music">Musik</label>            
+                
+                <input type="checkbox" id="trekking" name="hobbies" value="trekking">            
+                <label for="trekking">Vandring</label>            
+                
+                <input type="checkbox" id="other" name="hobbies" value="other">           
+                <label for="other">Annat</label>
+            </fieldset>                                    
+            
+            <button type="submit">Skicka</button>     
+        </form>     
+    </div>     
+</body>
